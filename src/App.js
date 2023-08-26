@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { authCheck } from "./components/actions/authActions";
 import { getArticles } from "./components/actions/articleActions";
+import UpdateArticle from "./components/UpdateArticle";
 function App() {
   const dispatch = useDispatch();
   const auth = useSelector(memoizedAuthSelector);
